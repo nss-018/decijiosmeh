@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kontakt</title>
+
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+        <script src="js/scriptDatum.js" type="text/javascript"></script>
+        <script src="js/contactScript.js" type="text/javascript"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+        <div id="wrapper">
+            <div id="menu">
+                <ul>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                    <li><a href="gradovi.html">Gradovi</a></li>
+                    <li><a href="galerija.html">Galerija</a></li>
+                    <li><a href="index.html">Početna</a></li>
+                </ul>
+            </div>
+            <div id="contact">
+                <h1 id="naslov">Kontakt</h1><br>
+                <h2 id="contactTitle"><span>Ukoliko imate neko pitanje ili želite da donirate, pošaljite nam upit:</span></h2><br>
+                <img src="images/slika1.jpeg" alt="Kontakt slika"/>
+               
+                    <div class="container">
+                        <form id = "form">
+
+                            <div class="form">
+                            <label for="name">Vaše ime:</label><br>
+                            <input type="name" class="form-control" id="name" placeholder="Unesite ime..." name="name" size="40">
+                            </div>
+
+                            <div class="form">
+                            <label for="surname">Vaše prezime:</label><br>
+                            <input type="surname" class="form-control" id="surname" placeholder="Unesite prezime..." name="surname" size="40">
+                            </div>
+
+                            <div class="form">
+                            <label for="email">Mejl adresa:</label><br>
+                            <input type="email" class="form-control" id="email" placeholder="Unesite mejl..." name="email" size="40">
+                            </div>
+
+                            <div class="form">
+                            <textarea id="message" cols="42" rows="5">Poruka</textarea><br>
+                            <input type="text" id="izraz"/><br>
+                            </div>
+
+                            
+                            <button id = "button" type="submit" class="btn btn-default">Pošaljite</button>
+							
+						</form>
+                    </div>
+            </div>
+
+        <div id="footer">
+            <div>&COPY; 2019 &middot;  Powered by ElabFon DEČJI OSMEH &middot; <span id="datum"></span></div>
+        </div>
+    </body>
+</html>

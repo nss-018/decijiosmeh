@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic";
+}*
+
+#wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+#logo1 {
+    float: left;
+    width: 30%;
+    size: 20px;
+}
+
+#menu {
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(92, 152, 243);
+}
+
+#menu ul {
+    list-style: none;
+    overflow: hidden;
+    float: bottom;
+}
+
+#menu li a {
+    display: block;
+    float: right;
+    padding: 15px;
+    overflow: hidden;
+    text-decoration: none;
+    color: rgb(228, 239, 255);
+    text-transform: uppercase;
+}
+
+#menu li:hover a {
+    color: rgb(51, 85, 138);
+}
+
+#bannerSlika {
+    width: 100%;
+}
+
+#banner {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+#levo, #desno {
+    width: 5%;
+    position: absolute;
+    top: 150px;
+    opacity: 0.7;
+}
+
+#levo:hover, #desno:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+#levo {
+    left: 15px;
+}
+
+#desno {
+    right: 15px;
+}
+
+#blocks {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.block, .looks_DivSaSlikom {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 30%;
+    height: 200px;
+}
+
+#leftBlock {
+    float: left;
+}
+
+#rightBlock {
+    float: right;
+}
+
+#midBlock {
+    margin: 0 5%;
+}
+
+.block:hover {
+    opacity: 0.5;
+}
+
+.block div {
+    background-color: white;
+    padding: 10px 40px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    margin: 20px 0;
+    border: solid rgb(164, 201, 255) 1px;
+    color: rgb(164, 201, 255);
+}
+
+#articlesTitle {
+    margin-top: 40px;    
+    text-align: center; 
+    border-bottom: 1px solid rgb(164, 201, 255); 
+    line-height: 0.1em;
+    font-weight: normal;
+} 
+
+#articlesTitle span {
+    background:#fff; 
+    padding:0 10px; 
+}
+
+#articles {
+    width: 100%;
+}
+
+.article {
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+.article img {
+    width: 55%;
+}
+
+.articleOdd img, .articleEven div {
+    float: left;
+}
+
+.articleOdd div, .articleEven img {
+    float: right;
+}
+.article div {
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: justify;
+    font-family: "Times New Roman", Times;
+}
+
+.article h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+ #footer {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(92, 152, 243);
+    color: #fff;
+}
+
+ #footer div{
+    margin: auto;
+    max-width: 65%;
+    line-height: 2.5;
+    text-transform: uppercase;
+}
+
+ #footer a {
+    padding: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+ #footer a:hover {
+    color: gray;
+}
+
+ #footer span {
+    float: right;
+}
+
+#contact {
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+#contact img {
+    float: left;
+    width: 40%;
+}
+
+#contact form {
+    float: left;
+    margin-left: 30px;
+}
+
+#contact input, #contact textarea {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: solid gray 1px;
+    padding: 5px;
+}
+
+#contactTitle {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    text-align: center; 
+    border-bottom: 1px solid lightgray; 
+    line-height: 0.1em;
+    font-weight: normal;
+} 
+
+#contactTitle span {
+    background:#fff; 
+    padding:0 10px; 
+}
+
+#button {
+    margin-top: 15px;
+    background-color: rgb(92, 152, 243);
+    color: white;
+    text-transform: uppercase;
+    border: solid rgb(68, 118, 192) 1px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#button:hover {
+    background-color: white;
+    color: rgb(92, 152, 243);
+    cursor: pointer;
+}
+
+#contact input, #message {
+    color: gray;
+}
+
+#contact input, #contact textarea {
+    font-family: "Times New Roman", Times;
+}
+
+#looks {
+    width: 100%;
+    overflow: hidden;
+}
+
+#naslov {
+    text-align: center;
+    font-weight: normal;
+}
+
+.looks_DivSaSlikom {
+    width: 20%;
+    margin: 0 2.5%;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+.looks_DivSaSlikom div {
+    position: absolute;
+    visibility: hidden;
+    font-size: 20px;
+}
+
+.looks_DivSaSlikom:hover img {
+    opacity: 0.2;
+}
+
+.looks_DivSaSlikom:hover div {
+    visibility: visible;
+}
